@@ -1,0 +1,210 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ACTIVITY</title>
+    
+<style>
+    body {
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9e4ee;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    min-height: 10vh;
+}
+
+header {
+    color: black;
+    background-size: cover;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(IMAGES/lumut\ perak.jpg);
+    padding: 70px;
+    text-align: center;
+    align-items: center;
+}
+
+header .logo {
+    float: left;
+    width: 90px;
+    height: auto;
+}
+
+header h1 {
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+}
+
+.container {
+    display: flex;
+    flex: 1;
+}
+
+aside {
+    background-color: #80bfe4;
+    color: white;
+    width: 200px;
+    padding: 20px;
+    box-sizing: border-box;
+    position: sticky;
+    top: 0;
+    height: 100vh;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: #80bfe4;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 3px 3px 8px rgba(0, 0, 0, 0.8);
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #80bfe4;
+    color: black;
+    text-align: center;
+    padding: 30px;
+    font-size: 1.2em;
+}
+
+table {
+  width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 1.2em;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+table, th, td {
+  border: 1px solid #ddd;
+} 
+
+th, td {
+  padding: 12px;
+  text-align: center;
+}
+
+th {
+  background-color: #80bfe4;
+  color: white;
+  font-size: 1.2em;
+}
+
+td img {
+  max-width: 200px;
+  height: auto;
+  border-radius: 5px;
+}
+
+td {
+  font-size: 1.2em;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+</style>
+</head>
+<body>
+  <header>
+    <img src="IMAGES/KAMPUNG TANJUNG BATU.png" alt="KAMPUNG TANJUNG BATU" class="logo" >
+    <h1>COMMUNITY OF KAMPUNG TANJUNG BATU</h1>
+</header>
+<div class="container">
+    <aside>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="KTBhistory.html">HISTORY</a></li>
+                <li><a href="Activities.html">ACTIVITY</a></li>
+                <li><a href="facility.html">FACILITY</a></li>
+                
+            </ul>
+        </nav>
+            </aside>
+        <main>
+            <section>
+                <table>
+  <tr>
+    <th>IMAGE</th>
+    <th>ACTIVITIES NAME</th>
+    <th>DATE</th>
+  </tr>
+  <tr>
+    <td><img src="IMAGES/Khatam tadarus alquran.jpg" alt="Khatam tadarus alquran"></td>
+    <td>Khatam Tadarus Al Quran</td>
+    <td>28 August 2023</td>
+  </tr>
+  <tr>
+    <td><img src="IMAGES/maulidur rasul.jpg" alt="maulidur rasul"></td>
+    <td>Maulidur Rasul Parade</td>
+    <td>28 September 2023</td>
+  </tr>
+   <tr>
+    <td><img src="IMAGES/Buka puasa.jpg" alt="Buka puasa"></td>
+    <td>Iftar Event</td>
+    <td>1 April 2024</td>
+  </tr>
+  <tr>
+    <td><img src="IMAGES/Mengaji.jpg" alt="Mengaji"></td>
+    <td>Reciting Al Quran Class</td>
+    <td>Every Sunday</td>
+  </tr>
+   <td><img src="IMAGES/GR surau.jpg" alt="GR surau"></td>
+    <td>Communal work to clean the surau</td>
+    <td>20 May 2024</td>
+  </tr>
+  <tr>
+    <td><img src="IMAGES/GR Mimet.jpg" alt="GR mimet"></td>
+    <td>Communal work with UniKL MIMET student</td>
+    <td>11 June 2024</td>
+  </tr>
+</table>
+            </section>
+        </main>
+    </div>
+    <footer>
+        <p><i>Copyright &#169; 2024 KAMPUNG TANJUNG BATU. All Rights Reserved.</i></p>
+    </footer>
+</body>
+</html>
